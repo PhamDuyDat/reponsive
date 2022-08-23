@@ -1,0 +1,229 @@
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  position: fixed;
+  padding-top: 70px;
+  background-color: black;
+  top: 0%;
+}
+.right {
+  display: flex;
+  gap: 40px;
+  color: white;
+}
+.right > ul {
+  display: flex;
+  gap: 40px;
+  font-size: 25px;
+  list-style: none;
+}
+.fontsize {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+.left > img {
+  width: 150px;
+}
+.border {
+  cursor: pointer;
+  border: 1px solid wheat;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  background-color: indianred;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.trai {
+  color: white;
+}
+.giua {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 300px;
+  width: 90%;
+  margin: auto;
+}
+.trai {
+  width: 50%;
+  font-size: 40px;
+}
+.trai > p {
+  font-size: 30px;
+}
+.phai > img {
+  width: 95%;
+}
+
+.chu {
+  color: white;
+  font-size: 15px;
+}
+.icon {
+  display: flex;
+  gap: 15px;
+  padding: 40px;
+}
+.anh1 > img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+body {
+  background-color: black;
+}
+
+.size {
+  color: white;
+  width: 40%;
+  font-size: 20px;
+}
+.duoi {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+.picture > img {
+  width: 95%;
+}
+.benduoi {
+  background-color: white;
+  width: 100%;
+  margin-top: 100px;
+}
+.color {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
+}
+.gird {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+.anh > img {
+  margin-top: 50px;
+  width: 70%;
+  border-radius: 0%;
+  height: 60%;
+  border-radius: 20px;
+}
+.font {
+  display: flex;
+  justify-content: space-around;
+}
+.left1 {
+  width: 35%;
+  font-size: 30px;
+}
+.right1 {
+  width: 35%;
+  font-size: 30px;
+}
+.button > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
+  gap: 15px;
+  width: 80%;
+  padding: 100px;
+  margin: auto;
+}
+.but {
+  border: 1px solid wheat;
+  width: 90%;
+  text-align: center;
+  background-color: wheat;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.ton {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  line-height: 100px;
+}
+.dau {
+  font-size: 30px;
+  text-align: center;
+}
+.cuoi {
+  font-size: 20px;
+  text-align: center;
+}
+.chi {
+  padding: 80px;
+  color: white;
+}
+@media only screen and (max-width: 1024px) {
+  .fontsize {
+    display: none;
+  }
+  .border {
+    width: 150px;
+    font-size: 15px;
+    margin-right: 100px;
+  }
+  .giua {
+    display: block;
+    text-align: center;
+  }
+  .trai {
+    width: 90%;
+  }
+  .phai > img {
+    width: 80%;
+  }
+  .duoi {
+    display: block;
+  }
+  .size {
+    width: 90%;
+  }
+  .gird {
+    grid-template-columns: 1fr 1fr;
+  }
+  .font {
+    display: block;
+  }
+  .left1 {
+    width: 90%;
+    margin: 50px;
+  }
+  .right1 {
+    width: 90%;
+    margin: 50px;
+  }
+  .button > ul {
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .gird {
+    grid-template-columns: 1fr;
+  }
+  .ton {
+    font-size: 20px;
+  }
+  .but {
+    text-align: center;
+  }
+  .button > ul {
+    margin-left: -30px;
+  }
+  .color {
+    font-size: 20px;
+  }
+  .dau {
+    font-size: 20px;
+  }
+  .cuoi {
+    font-size: 15px;
+  }
+}
